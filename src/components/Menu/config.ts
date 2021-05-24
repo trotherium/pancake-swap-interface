@@ -2,7 +2,7 @@ import { MenuEntry } from '@pancakeswap-libs/uikit'
 
 const config: MenuEntry[] = [
   {
-    label: 'Home',
+    label: 'Centrix Home',
     icon: 'HomeIcon',
     href: 'https://pancakeswap.finance/',
   },
@@ -12,7 +12,7 @@ const config: MenuEntry[] = [
     initialOpenState: true,
     items: [
       {
-        label: 'Exchange',
+        label: 'Centrix Swap',
         href: '/swap',
       },
       {
